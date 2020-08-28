@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <? php?>
         <title>¡Wenas muchachos!</title>
     </head>
     <body>
