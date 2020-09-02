@@ -23,7 +23,7 @@
     <a name="Proyecto"></a>
 
     <p><h2>Proyecto:</h2>Gps de restaurantes y sitios para salir <n>(GPS to eat)</n> con los amigos.<br>
-        <a name="Idea">
+        <a name="Idea"></a>
         <h2>Idea:</h2> Es crear un sitio interactivo relacionado a la búsqueda de sitios de comida, de acuerdo al tipo de comidas que existen.
         <br> 
         Pensamos tener al final del semestre un proyecto en el cual tengamos una gran base de datos de lugares de comida y separarlos por lugares geográficos de colombia.
