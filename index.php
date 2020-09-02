@@ -10,7 +10,7 @@
     <ul>
        
          <li><a href="#Proyecto">ir a Proyecto</a></li>
-         <li><a href="#Idea:">ir a Idea</a></li>
+         <li><a href="#Idea">ir a Idea</a></li>
          <li><a href="#Lema">ir a Lema</a></li>
          <li><a href="#Funcionamiento de pagina">ir a Funcionamiento de página</a></li>
          <li><a href="#Ejercicios con tablas">ir a Ejercicios con tablas</a></li>
