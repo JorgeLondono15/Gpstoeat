@@ -7,11 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <H1>Gpstoeat</H1><br><br>
+
+    <h1>Gpstoeat</h1><br><br>
+
     <p><h2>Proyecto:</h2>Gps de restaurantes y sitios para salir <n>(GPS to eat)</n> con los amigos.<br>
+
+    <a href="Idea"></a>
         <h2>Idea:</h2> Es crear un sitio interactivo relacionado a la búsqueda de sitios de comida, de acuerdo al tipo de comidas que existen.
         <br> 
         Pensamos tener al final del semestre un proyecto en el cual tengamos una gran base de datos de lugares de comida y separarlos por lugares geográficos de colombia.
+    <a href="Lem"></a>
         <h2>Lema:</h2>
         Eres indeciso para escoger a donde quieres ir?¿ Te gustan muchas comidas, pero no sabes que escoger?Pues te tenemos la solución, con nuestra página, no tendrás que elegir, nosotros elegiremos por ti, dependiendo tu decisión general!! Atrévete o miedo? 
         <br>
@@ -20,6 +25,7 @@
         <h2>¿Como será al final del semestre?</h2>
         <br> Buscamos integrar al cliente a nuestra pagina, con unos apartados muy sencillos pero elegantes, que permitan una facil movilidad de los usuarios.    
     </p>
+    <a hred="Ejer tab"> </a>
     <h1>ejercicios con tablas</h1>
     <table style="width: 100%;" >
 <tr> 
