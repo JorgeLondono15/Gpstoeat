@@ -12,6 +12,7 @@
   </head>
   <body>
     <h1>Primeros pasos de Bootstrap</h1>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="640" height="480"></iframe>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus justo ante, congue luctus mi a, rutrum venenatis nisl. Sed iaculis consectetur neque, sed tincidunt eros porttitor eu. In ac vehicula mauris, vitae dictum velit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla ut porttitor neque. Curabitur tempus turpis diam, id laoreet nibh viverra ut. Aliquam efficitur, sapien vitae ullamcorper ornare, ante elit malesuada eros, ut cursus nisl dui vel nibh.</p>
 
