@@ -9,5 +9,7 @@
     background: linear-gradient(to right, #ffef26 , #fe0503); /* Standard syntax */
 
 }
-
-    
+.centrado{
+    float:center;
+    margin:5px;
+}
