@@ -14,7 +14,7 @@
 
   <body class=margenes>
 
-  <DIV STYLE="position:absolute; top:20px; left:20px; visibility:visible z-index:1">
+  <DIV STYLE="position:absolute; top:15px; left:15px; visibility:visible z-index:1">
 <IMG height="10%" SRC="imagenes/Logo-2.png" width="10%">
 </div>
 
@@ -22,22 +22,71 @@
 <iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="850" height="600"></iframe>
 </div>
 
-<aside style="float: right;  margin-top: 15px; width: 32%; height: 600px; background-color: mistyrose; margin-right:20px; border : 1px solid black">
+<aside style="float: right;  margin-top: 10px; width: 32%; height: 600px; margin-right:20px">
 
-<form action="formularios-select-1.php" method="get">
+<form action="Eleccion de datos" method="get">
 <fieldset>
-  <legend><h1>Tipo de comida</h1></legend>
-<select name="menu">
+<p><legend>Tipo de comida</legend>
+<select name="Tipo">
   <option value="0" selected>Elegir</option>
-  <option value="1" selected>Quesos</option>
-  <option value="2" selected>Pizza</option>
-  <option value="3" selected>Arepas</option>
-  <option value="4" selected>Palitos de Queso</option>
-  <option value="5" selected>Papas Fritas</option>
-  <option value="6" selected>Mandingas</option>
-</select>
+  <option value="1" >Quesos</option>
+  <option value="2" >Pizza</option>
+  <option value="3" >Arepas</option>
+  <option value="4" >Palitos de Queso</option>
+  <option value="5" >Papas Fritas</option>
+  <option value="6" >Mandingas</option>
+</select></p>
 </fieldset>
-</form>  
+
+<fieldset>
+<p><legend>Tipo de ambiente</legend>
+<select name="Tipoambiente">
+  <option value="0" selected>Elegir</option>
+  <option value="1" >Moderno</option>
+  <option value="2" >Clasico</option>
+  <option value="3" >Vintage</option>
+  <option value="4" >Rústico</option>
+  <option value="5" >Industrial</option>
+</select></p>
+</fieldset>
+
+<fieldset>
+<p><legend>Sector</legend>
+<select name="Tiposector">
+  <option value="0" selected>Elegir</option>
+  <option value="1" >Aranjuez</option>
+  <option value="2" >Castilla</option>
+  <option value="3" >Caribe</option>
+  <option value="4" >Robledo</option>
+  <option value="5" >San Javier</option>
+</select></p>
+</fieldset>
+
+<fieldset>
+<p><legend>Puntuación</legend>
+Indique su nivel (Malo, Regular, Bueno):
+<input type="range" name="Puntuación"
+  min="1" max="3" list="lista-rango">
+<datalist id="lista-rango">
+  <option value="1" label="Malo">
+  <option value="2" label="RegularMalo">
+  <option value="3" label="Bueno">
+</datalist></p>
+</fieldset>
+
+<fieldset>
+<p><legend>Precios</legend>
+Rangos:<br>
+<input type="radio" name="boton"> 0$ - 5.000$ <br>
+<input type="radio" name="boton"> 5.000$ - 10.000$<br>
+<input type="radio" name="boton"> 10.000$ - 20.000$<br>
+<input type="radio" name="boton"> 20.000$ - 50.000$<br>
+<input type="radio" name="boton"> 50.000$ - 100.000$<br>
+</datalist></p>
+</fieldset>
+
+<input type="submit" value="Enviar">
+</form> 
 
 </aside>
 
