@@ -12,7 +12,7 @@
     <title>GpsToEat</title>
   </head>
 
-  <body class=margenes>
+  <body class=Fondo>
   <div style="position: relative;">
   <div style="position: absolute; top: 15px; left: 15px;">
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
@@ -20,9 +20,9 @@
  <div class=mapa><iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="900px" height="600px"></iframe></div>
    </div>
 
-<aside style="float: right;  margin-top: 30px; width:32%; height: 550px; margin-right:5px">
+<aside style="float: right;  margin-top: 10px; width:32%; height: 550px; margin-right:5px">
 
-<form action="Eleccion de datos" method="get">
+<form action="Local1.html" method="get">
 <fieldset>
 <p><legend>Tipo de comida</legend>
 <select name="Tipo">
@@ -83,7 +83,7 @@ Rangos:<br>
 </datalist></p>
 </fieldset>
 
-<input type="submit" value="Enviar"><a href="otra.php">
+<input type="submit" value="Enviar" >
 </form> 
 
 </aside>
