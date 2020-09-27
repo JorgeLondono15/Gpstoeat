@@ -20,7 +20,7 @@
  <div class=mapa><iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="900px" height="600px"></iframe></div>
    </div>
 
-<aside style="float: right;  margin-top: 10px; width:32%; height: 550px; margin-right:5px">
+<aside style="float: right;  margin-top: 10px; width:30%; height: 550px; margin-right:5px">
 
 <form action="Local1.html" method="get">
 <fieldset>
