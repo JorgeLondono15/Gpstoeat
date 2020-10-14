@@ -25,7 +25,7 @@
 <form action="Local1.html" method="get">
 <fieldset>
 <p><legend>Tipo de comida</legend>
-<select name="Tipo">
+<select class="form-control" name="Tipo">
   <option value="0" selected>Elegir</option>
   <option value="1" >Quesos</option>
   <option value="2" >Pizza</option>
@@ -38,7 +38,7 @@
 
 <fieldset>
 <p><legend>Tipo de ambiente</legend>
-<select name="Tipoambiente">
+<select class="form-control" name="Tipoambiente">
   <option value="0" selected>Elegir</option>
   <option value="1" >Moderno</option>
   <option value="2" >Clasico</option>
@@ -50,7 +50,7 @@
 
 <fieldset>
 <p><legend>Sector</legend>
-<select name="Tiposector">
+<select class="form-control" name="Tiposector">
   <option value="0" selected>Elegir</option>
   <option value="1" >Aranjuez</option>
   <option value="2" >Castilla</option>
@@ -61,29 +61,51 @@
 </fieldset>
 
 <fieldset>
-<p><legend>Puntuación</legend>
-Indique su nivel (Malo, Regular, Bueno):
-<input type="range" name="Puntuación"
-  min="1" max="3" list="lista-rango">
-<datalist id="lista-rango">
-  <option value="1" label="Malo">
-  <option value="2" label="RegularMalo">
-  <option value="3" label="Bueno">
-</datalist></p>
+<form>
+  <div class="form-group">
+    <label for="formControlRange">Puntuación</label>
+    <input type="range" class="form-control-range" id="formControlRange">
+  </div>
+</form>
 </fieldset>
+
 
 <fieldset>
 <p><legend>Precios</legend>
 Rangos:<br>
-<input type="radio" name="boton"> 0$ - 5.000$ <br>
-<input type="radio" name="boton"> 5.000$ - 10.000$<br>
-<input type="radio" name="boton"> 10.000$ - 20.000$<br>
-<input type="radio" name="boton"> 20.000$ - 50.000$<br>
-<input type="radio" name="boton"> 50.000$ - 100.000$<br>
-</datalist></p>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    0$ - 5.000$
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    5.000$ - 10.000$
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    10.000$ - 20.000$
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    20.000$ - 50.000$
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    50.000$ - 100.000$
+  </label>
 </fieldset>
 
-<input type="submit" value="Enviar" >
+
+<a href="Local1.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Enviar</a>
 </form> 
 
 </aside>

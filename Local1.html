@@ -18,13 +18,31 @@
         </div>
     </div>
     <br>
-    <nav>
-        <ul >
-        <li><a class="text" href="index.php">Home</a></li>
-        <li><a class="text" href="Local1.html">Local 1</a></li>
-        <li><a class="text" href="Local2.html">Local 2</a></li>
-    </ul>
-</nav>
+    <nav class="navbar navbar-expand navbar-light" style="background-color: #8f70ff94; width: 80%; margin-right: 5%; float: right;">
+        <!-- Navbar content -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                        Establecimientos
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <!-- Dropdown menu links -->              
+                          <a class="dropdown-item" href="Local1.html">MandiHouse</a>
+                          <a class="dropdown-item" href="Local2.html">Superpalotes</a>
+                          <a class="dropdown-item" href="Local3.html">Pizzas el rincón</a>
+                    </div>
+                </div>
+            </li>
+        </ul>      
+        
+      </nav>
 
 
     <section class="izquierdacentrado">
@@ -53,6 +71,14 @@
             </ul>
         </nav>
         <div class="enlinea">
+            <div class="card" style="width: 18rem;">
+                <img src="imagenes/Mandingas1.png" width="100%" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
             <img src="imagenes/Mandingas1.png" alt="No se pudo cargar la imagen" width="200px" height="200px">
             <img src="imagenes/Mandigas2.jpg" alt="No se pudo cargar la imagen" width="200px" height="200px">
             <img src="imagenes/Mandingas.jpg" alt="No se pudo cargar la imagen" width="200px" height="200px">
@@ -64,7 +90,7 @@
     </section>
 
     <aside class="mapaderecha">
-        <iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="400" height="550"></iframe>
+        <iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="400" height="510"></iframe>
     </aside>
   
 

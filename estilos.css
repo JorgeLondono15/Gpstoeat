@@ -13,15 +13,15 @@
     float:left;
     margin:10px;
     text-align:center;
-    border: solid black 0.5px;
+    border: solid black 2px;
     padding: 5px;
     width: 65%;
 }
 #contenedor{
     text-align: center;
     width:100%;
-    padding: 10px 20px;
-    margin: 40px auto;
+    padding: 10px 10px;
+    margin: 18px auto;
 }
 nav{
     text-align: center;
@@ -46,3 +46,8 @@ li{
 .enlinea{
     display: inline-block;
 }
+.active {
+    background-color: #4CAF50;
+}
+
+
