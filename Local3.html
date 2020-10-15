@@ -18,24 +18,33 @@
         </div>
     </div>
     <br>
-    <nav class="navbar navbar-light" style="background-color: #8f70ff94; width: 80%; float: right; margin-right: 5%;">
+    <nav class="navbar navbar-expand navbar-light" style="background-color: #8f70ff94; width: 80%; margin-right: 5%; float: right;">
         <!-- Navbar content -->
-        <li><a class="text" href="index.php">Inicio</a></li>
-        <div class="btn-group dropright">
-            <button type="button" class="btn btn-secondary">
-                Establecimientos
-            </button>
-            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <span class="sr-only">Toggle Dropright</span>
-            </button>
-            <div class="dropdown-menu">
-              <!-- Dropdown menu links -->              
-                  <a class="dropdown-item" href="Local1.html">MandiHouse</a></li>
-                  <a class="dropdown-item" href="Local2.html">Superpalotes</a>
-                  <a class="dropdown-item" href="Local3.html">Pizzas el rincón</a>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.php">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                        <a class="btn btn-secondary btn-sm" href="Establecimientos.html" role="button">Establecimiento</a>
+                    </button>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <!-- Dropdown menu links -->              
+                          <a class="dropdown-item" href="Local1.html">MandiHouse</a>
+                          <a class="dropdown-item" href="Local2.html">Superpalotes</a>
+                          <a class="dropdown-item" href="Local3.html">Pizzas el rincón</a>
+                          <a class="dropdown-item" href="Local4.html">Arepitas de la Luisa</a>
+                          <a class="dropdown-item" href="Local5.html">Quesería de mi sin ti</a>
+                          <a class="dropdown-item" href="Local6.html">Megapapas</a>
+                    </div>
                 </div>
-              </div>
-          </div>
+            </li>
+        </ul>      
+        
       </nav>
 
 
@@ -51,14 +60,10 @@
             <nav>
                 <ul >
                 <li>
-                    <p>Puntuación (1, 2, 3):
-                    <input type="range" name="Puntuación"
-                      min="1" max="3" list="lista-rango">
-                    <datalist id="lista-rango">
-                      <option value="1"  label="Malo">
-                      <option value="2" label="RegularMalo">
-                      <option value="3" label="Bueno">
-                    </datalist></p>
+                    <div class="form-group">
+                        <label for="formControlRange">Puntuación:</label>
+                        <input type="range" class="form-control-range" id="formControlRange">
+                      </div>
                     </li>
                 <li><a href="https://www.facebook.com/combipizzas"> <button type="button" class="btn btn-success btn-lg btn-block disabled">Nuestra Página</button></a></li>
 
