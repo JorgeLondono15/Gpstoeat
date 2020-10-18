@@ -54,4 +54,15 @@ a.class_a_href{
     pointer-events: none;
     cursor: default;
     }
-
+.contenedorayudante{
+    width: 1400px;
+    max-width: 1400px;
+    margin: 5px ;
+}
+.izquierdacentrado1{
+    float:left;
+    margin:10px;
+    text-align:center;
+    padding: 5px;
+    width: 65%;
+}
