@@ -17,6 +17,54 @@
   <div style="position: absolute; top: 15px; left: 15px;">
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
   </div>
+
+  <nav class="navbar navbar-expand navbar-light" style="background-color: #f5f5dc; width:80%; margin-left: 15%; margin-top: 2%; float: left;">
+        <!-- Navbar content -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                    <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                  </svg>
+                <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                    <a class="btn btn-secondary btn-sm" href="index.php" role="button">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-collection-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7z"/>
+                    <path fill-rule="evenodd" d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"/>
+                  </svg>
+                <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                      <a class="btn btn-secondary btn-sm" href="Establecimientos.html" role="button">Establecimientos</a>
+                    <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropright</span>
+                    </button>
+                    <div class="dropdown-menu">
+                      <!-- Dropdown menu links -->              
+                          <a class="dropdown-item" href="Local1.html">MandiHouse</a>
+                          <a class="dropdown-item" href="Local2.html">Superpalotes</a>
+                          <a class="dropdown-item" href="Local3.html">Pizzas el rincón</a>
+                          <a class="dropdown-item" href="Local4.html">Arepitas de la Luisa</a>
+                          <a class="dropdown-item" href="Local5.html">Quesería de mi sin ti</a>
+                          <a class="dropdown-item" href="Local6.html">Megapapas</a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+          </svg>
+                  <div class="btn-group dropright">
+                    <button type="button" class="btn btn-secondary">
+                    <a class="btn btn-secondary btn-sm" href="Contactenos.html" role="button">Contáctanos</a>
+            </li>
+        </ul>      
+        
+      </nav>
+
+
  <div class=mapa><iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="900px" height="595px"></iframe></div>
    </div>
 
@@ -68,13 +116,20 @@
 
 <fieldset>
 <form>
-  <div class="form-group">
-    <label for="formControlRange"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.283.95l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                          </svg>  Puntuación</label>
-    <input type="range" class="form-control-range" id="formControlRange">
-  </div>
+  <p class="clasificacion">
+    <input id="radio1" type="radio" name="estrellas" value="5"><!--
+    --><label for="radio1">(1)★</label><!--
+    --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+    --><label for="radio2">(2)★</label><!--
+    --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+    --><label for="radio3">(3)★</label><!--
+    --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+    --><label for="radio4">(4)★</label><!--
+    --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+    --><label for="radio5">(5)★</label>
+  </p>
 </form>
+
 </fieldset>
 
 
