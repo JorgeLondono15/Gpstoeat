@@ -18,7 +18,7 @@
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
   </div>
 
-  <nav class="navbar navbar-expand navbar-light" style="background-color: #f5f5dc; width:80%; margin-left: 15%; margin-top: 2%; float: left;">
+  <nav class="navbar navbar-expand navbar-light" style="background-color:  #ffffff; width:80%; margin-left: 15%; margin-top: 2%; float: left;">
         <!-- Navbar content -->
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -63,7 +63,13 @@
         </ul>      
         
       </nav>
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
  <div class=mapa><iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="900px" height="595px"></iframe></div>
    </div>
@@ -176,6 +182,11 @@
 
 </aside>
 </div>
+<footer class="footer">
+        <ul>
+        <li><a>@GpsToEat Derechos Reservados 2020</a></li>
+        </ul>
+       </footer>
 
 
     <!-- Optional JavaScript -->
@@ -183,6 +194,10 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/javaprueba.js"></script>
+
   
+  </body>
+ 
+
 </html>
