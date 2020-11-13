@@ -7,6 +7,7 @@ for(var i = 0;i < inputs.length; i++) { //va hacer un recorrido de acuerdo a la 
     this.nextElementSibling.classList.remove('fijar');  // si no es mayor a 1 entonces se le quita la clase fijar y se regresa
    }
 });
+
 }
 
 document.getElementById("Sector").onchange=function(){
@@ -56,6 +57,7 @@ document.getElementById("boton").onclick=function(){
 
 
    }
+
 
 
 
