@@ -13,50 +13,49 @@ for(var i = 0;i < inputs.length; i++) { //va hacer un recorrido de acuerdo a la 
 document.getElementById("Sector").onchange=function(){
       var Sector=document.getElementById("Sector").value
       if(Sector=="1"){
-         document.getElementById("comidas").innerHTML="<option value='4' >Palitos de Queso</option>\
-         <option value='5' >Papas Fritas</option>\
-         <option value='6' >Mandingas</option>"
+         document.getElementById("comidas").innerHTML="<option value='0' selected>Elegir</option>\
+         <option value='5' >Papas Fritas</option>"
 
       }
       else if (Sector=="2"){
-          document.getElementById("comidas").innerHTML="<option value='4' >Palitos de Queso</option>\
-          <option value='5' >Papas Fritas</option>\
+          document.getElementById("comidas").innerHTML="<option value='0' selected>Elegir</option>\
           <option value='6' >Mandingas</option>"
 
 }
 else if (Sector=="3"){
-   document.getElementById("comidas").innerHTML="<option value='4' >Palitos de Queso</option>\
-   <option value='5' >Papas Fritas</option>\
-   <option value='6' >Mandingas</option>"
+   document.getElementById("comidas").innerHTML="<option value='0' selected>Elegir</option>\
+   <option value='4' >Palitos de Queso</option>"
 
 }
 else if (Sector=="4"){
-   document.getElementById("comidas").innerHTML="<option value='5' >Papas Fritas</option>\
-   <option value='6' >Mandingas</option>"
+   document.getElementById("comidas").innerHTML="<option value='0' selected>Elegir</option>\
+   <option value='2' >Pizza</option>\
+  <option value='3' >Arepas</option>"
 
 }
 else if (Sector=="5"){
-   document.getElementById("comidas").innerHTML="<option value='4' >Palitos de Queso</option>\
-   <option value='5' >Papas Fritas</option>\
-   <option value='6' >Mandingas</option>"
-
-}
-else if (Sector=="6"){
-   document.getElementById("comidas").innerHTML="<option value='4' >Palitos de Queso</option>\
-   <option value='5' >Papas Fritas</option>\
-   <option value='6' >Mandingas</option>"
+   document.getElementById("comidas").innerHTML="<option value='0' selected>Elegir</option>\
+   <option value='1'>Quesos</option>"
 
 }
 }
 
 document.getElementById("boton").onclick=function(){
    var restaurante= document.getElementById("comidas").value
-   if(restaurante=="3"){
+   if(restaurante=="1"){
+      window.location.replace("Local5.HTML")
+   }else if(restaurante=="2"){
       window.location.replace("Local3.HTML")
-      }
-
-
+   }else if(restaurante=="3"){
+      window.location.replace("Local4.HTML")
+   }else if(restaurante=="4"){
+      window.location.replace("Local2.HTML")
+   }else if(restaurante=="5"){
+      window.location.replace("Local6.HTML")
+   }else if(restaurante=="6"){
+      window.location.replace("Local1.HTML")
    }
+}
 
 
 
