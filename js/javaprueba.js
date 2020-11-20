@@ -43,17 +43,17 @@ else if (Sector=="5"){
 document.getElementById("boton").onclick=function(){
    var restaurante= document.getElementById("comidas").value
    if(restaurante=="1"){
-      window.location.replace("Local5.HTML")
+      window.location.replace("Local5.html")
    }else if(restaurante=="2"){
-      window.location.replace("Local3.HTML")
+      window.location.replace("Local3.html")
    }else if(restaurante=="3"){
-      window.location.replace("Local4.HTML")
+      window.location.replace("Local4.html")
    }else if(restaurante=="4"){
-      window.location.replace("Local2.HTML")
+      window.location.replace("Local2.html")
    }else if(restaurante=="5"){
-      window.location.replace("Local6.HTML")
+      window.location.replace("Local6.html")
    }else if(restaurante=="6"){
-      window.location.replace("Local1.HTML")
+      window.location.replace("Local1.html")
    }
 }
 
