@@ -11,7 +11,7 @@
 
     <title>GpsToEat</title>
   </head>
-<div class="contenedorayudante">
+
   <body class=Fondo>
     <div class="Row">
     <div class="Col">
