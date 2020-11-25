@@ -61,6 +61,3 @@ document.getElementById("boton").onclick=function(){
 
 
 
-document.getElementById("boton2").onclick;{
-   window.alert("Tu información fue enviada con exito"); 
-};
