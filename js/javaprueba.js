@@ -6,13 +6,13 @@ for(var i = 0;i < inputs.length; i++) { //va hacer un recorrido de acuerdo a la 
     else {    
     this.nextElementSibling.classList.remove('fijar');  // si no es mayor a 1 entonces se le quita la clase fijar y se regresa
    }
-});
+})
 
-}
+};
 
 document.getElementById("boton2").onclick=function(){
    window.alert("Tu información fue enviada con exito"); 
-}
+};
 
 document.getElementById("Sector").onchange=function(){
       var Sector=document.getElementById("Sector").value
@@ -42,7 +42,7 @@ else if (Sector=="5"){
    <option value='1'>Quesos</option>"
 
 }
-}
+};
 
 document.getElementById("boton").onclick=function(){
    var restaurante= document.getElementById("comidas").value
@@ -59,7 +59,7 @@ document.getElementById("boton").onclick=function(){
    }else if(restaurante=="6"){
       window.location.replace("Local1.html")
    }
-}
+};
 
 
 
