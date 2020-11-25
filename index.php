@@ -11,9 +11,11 @@
 
     <title>GpsToEat</title>
   </head>
-<div class="contenedorayudante">
+
   <body class=Fondo>
-  <div style="position: relative;">
+    <div class="Row">
+    <div class="Col">
+    <div style="position: relative;">
   <div style="position: absolute; top: 15px; left: 15px;">
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
   </div>
@@ -188,6 +190,10 @@
         <li><a>@GpsToEat Derechos Reservados 2020</a></li>
         </ul>
        </footer>
+    </div>
+    </div>
+    
+  
 
 
     <!-- Optional JavaScript -->
