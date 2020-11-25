@@ -10,6 +10,10 @@ for(var i = 0;i < inputs.length; i++) { //va hacer un recorrido de acuerdo a la 
 
 }
 
+document.getElementById("boton2").onclick=function(){
+   window.alert("Tu información fue enviada con exito"); 
+}
+
 document.getElementById("Sector").onchange=function(){
       var Sector=document.getElementById("Sector").value
       if(Sector=="1"){
