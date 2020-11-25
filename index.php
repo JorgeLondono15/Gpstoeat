@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="estilos.css">
-
+    <link rel="shortcut icon" href="imagenes/Logo-3.ico" type="image/x-icon">
     <title>GpsToEat</title>
   </head>
 
