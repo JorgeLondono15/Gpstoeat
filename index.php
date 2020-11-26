@@ -19,7 +19,8 @@
   <div style="position: absolute; top: 15px; left: 15px;">
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
   </div>
-
+  </div>
+  <div class="Col">
   <nav class="navbar navbar-expand navbar-light" style="background-color:  #ffffff; width:80%; margin-left: 15%; margin-top: 2%; float: left;">
         <!-- Navbar content -->
         <ul class="navbar-nav mr-auto">
@@ -65,6 +66,8 @@
         </ul>      
         
       </nav>
+      </div>
+    </div>
 <br>
 <br>
 <br>
@@ -72,10 +75,13 @@
 <br>
 <br>
 <br>
+<div class="Row">
+    <div class="Col">
 
  <div class=mapa><iframe src="https://www.google.com/maps/d/embed?mid=1BsuxtKk8vtLtg8MmCe2AnpcyPjZjTjLJ" width="900px" height="595px"></iframe></div>
    </div>
-
+   </div>
+   <div class="Col">
 <aside style="float: right;  width:20%; height: auto; margin-right:10px">
 
 <form action="Local1.html" method="get">
@@ -190,7 +196,9 @@
         <li><a>@GpsToEat Derechos Reservados 2020</a></li>
         </ul>
        </footer>
-    </div>
+       <div class="Col-1">
+       </div>
+       </div>
     </div>
     
   
