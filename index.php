@@ -13,14 +13,15 @@
   </head>
 
   <body class=Fondo>
+  
     <div class="Row">
-    <div class="Col">
+    <div class="Col-sm">
     <div style="position: relative;">
   <div style="position: absolute; top: 15px; left: 15px;">
   <img src="imagenes/Logo-2.png" height="140px" width="140px" />
   </div>
   </div>
-  <div class="Col">
+  <div class="Col-sm">
   <nav class="navbar navbar-expand navbar-light" style="background-color:  #ffffff; width:80%; margin-left: 15%; margin-top: 2%; float: left;">
         <!-- Navbar content -->
         <ul class="navbar-nav mr-auto">
@@ -67,7 +68,7 @@
         
       </nav>
       </div>
-    </div>
+
 <br>
 <br>
 <br>
@@ -75,6 +76,7 @@
 <br>
 <br>
 <br>
+</div>
 <div class="Row">
     <div class="Col">
 
@@ -191,15 +193,18 @@
 
 </aside>
 </div>
+</div>
+</div>
+
 <footer class="footer">
         <ul>
         <li><a>@GpsToEat Derechos Reservados 2020</a></li>
         </ul>
        </footer>
-       <div class="Col-1">
-       </div>
-       </div>
-    </div>
+
+       
+       
+
     
   
 
